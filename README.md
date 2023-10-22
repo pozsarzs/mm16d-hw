@@ -1,7 +1,7 @@
 ## MM16D * Grow house control device  
 Copyright (C) 2023 Pozsár Zsolt <pozsarzs@gmail.com>  
 Homepage: <http://www.pozsarzs.hu>  
-GitHub: <https://github.com/pozsarzs/mm16d-sw>
+GitHub: <https://github.com/pozsarzs/mm16d-hw>
 
 #### Documentation
 |features               |             |

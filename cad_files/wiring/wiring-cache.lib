@@ -1,11 +1,197 @@
-EESchema-LIBRARY Version 2.3
+EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# 0V
+# Connector_Conn_01x01_Female
 #
-DEF ~0V #PWR 0 0 Y Y 1 F P
+DEF Connector_Conn_01x01_Female J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "Connector_Conn_01x01_Female" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*
+$ENDFPLIST
+DRAW
+A 0 0 20 901 -901 1 1 6 N 0 20 0 -20
+P 2 1 1 6 -50 0 -20 0 N
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Connector_Conn_01x02_Female
+#
+DEF Connector_Conn_01x02_Female J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "Connector_Conn_01x02_Female" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+A 0 -100 20 901 -901 1 1 6 N 0 -80 0 -120
+A 0 0 20 901 -901 1 1 6 N 0 20 0 -20
+P 2 1 1 6 -50 -100 -20 -100 N
+P 2 1 1 6 -50 0 -20 0 N
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+X Pin_2 2 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Connector_Conn_01x03_Female
+#
+DEF Connector_Conn_01x03_Female J 0 40 Y N 1 F N
+F0 "J" 0 200 50 H V C CNN
+F1 "Connector_Conn_01x03_Female" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+A 0 -100 20 901 -901 1 1 6 N 0 -80 0 -120
+A 0 0 20 901 -901 1 1 6 N 0 20 0 -20
+A 0 100 20 901 -901 1 1 6 N 0 120 0 80
+P 2 1 1 6 -50 -100 -20 -100 N
+P 2 1 1 6 -50 0 -20 0 N
+P 2 1 1 6 -50 100 -20 100 N
+X Pin_1 1 -200 100 150 R 50 50 1 1 P
+X Pin_2 2 -200 0 150 R 50 50 1 1 P
+X Pin_3 3 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Connector_Conn_01x05_Female
+#
+DEF Connector_Conn_01x05_Female J 0 40 Y N 1 F N
+F0 "J" 0 300 50 H V C CNN
+F1 "Connector_Conn_01x05_Female" 0 -300 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+A 0 -200 20 901 -901 1 1 6 N 0 -180 0 -220
+A 0 -100 20 901 -901 1 1 6 N 0 -80 0 -120
+A 0 0 20 901 -901 1 1 6 N 0 20 0 -20
+A 0 100 20 901 -901 1 1 6 N 0 120 0 80
+A 0 200 20 901 -901 1 1 6 N 0 220 0 180
+P 2 1 1 6 -50 -200 -20 -200 N
+P 2 1 1 6 -50 -100 -20 -100 N
+P 2 1 1 6 -50 0 -20 0 N
+P 2 1 1 6 -50 100 -20 100 N
+P 2 1 1 6 -50 200 -20 200 N
+X Pin_1 1 -200 200 150 R 50 50 1 1 P
+X Pin_2 2 -200 100 150 R 50 50 1 1 P
+X Pin_3 3 -200 0 150 R 50 50 1 1 P
+X Pin_4 4 -200 -100 150 R 50 50 1 1 P
+X Pin_5 5 -200 -200 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Connector_Conn_01x06_Female
+#
+DEF Connector_Conn_01x06_Female J 0 40 Y N 1 F N
+F0 "J" 0 300 50 H V C CNN
+F1 "Connector_Conn_01x06_Female" 0 -400 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+A 0 -300 20 901 -901 1 1 6 N 0 -280 0 -320
+A 0 -200 20 901 -901 1 1 6 N 0 -180 0 -220
+A 0 -100 20 901 -901 1 1 6 N 0 -80 0 -120
+A 0 0 20 901 -901 1 1 6 N 0 20 0 -20
+A 0 100 20 901 -901 1 1 6 N 0 120 0 80
+A 0 200 20 901 -901 1 1 6 N 0 220 0 180
+P 2 1 1 6 -50 -300 -20 -300 N
+P 2 1 1 6 -50 -200 -20 -200 N
+P 2 1 1 6 -50 -100 -20 -100 N
+P 2 1 1 6 -50 0 -20 0 N
+P 2 1 1 6 -50 100 -20 100 N
+P 2 1 1 6 -50 200 -20 200 N
+X Pin_1 1 -200 200 150 R 50 50 1 1 P
+X Pin_2 2 -200 100 150 R 50 50 1 1 P
+X Pin_3 3 -200 0 150 R 50 50 1 1 P
+X Pin_4 4 -200 -100 150 R 50 50 1 1 P
+X Pin_5 5 -200 -200 150 R 50 50 1 1 P
+X Pin_6 6 -200 -300 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_R
+#
+DEF Device_R R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "Device_R" 0 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Switch_SW_DPDT_x2
+#
+DEF Switch_SW_DPDT_x2 SW 0 0 Y N 2 F N
+F0 "SW" 0 170 50 H V C CNN
+F1 "Switch_SW_DPDT_x2" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ SW*DPDT*
+$ENDFPLIST
+DRAW
+C -80 0 20 0 0 0 N
+C 80 -100 20 0 0 0 N
+C 80 100 20 0 1 0 N
+P 2 0 1 0 -60 10 65 90 N
+X A 1 200 100 100 L 50 50 1 1 P
+X B 2 -200 0 100 R 50 50 1 1 P
+X C 3 200 -100 100 L 50 50 1 1 P
+X A 4 200 100 100 L 50 50 2 1 P
+X B 5 -200 0 100 R 50 50 2 1 P
+X C 6 200 -100 100 L 50 50 2 1 P
+ENDDRAW
+ENDDEF
+#
+# Switch_SW_SP3T
+#
+DEF Switch_SW_SP3T SW 0 0 Y N 1 F N
+F0 "SW" 0 200 50 H V C CNN
+F1 "Switch_SW_SP3T" 0 -200 50 H V C CNN
+F2 "" -625 175 50 H I C CNN
+F3 "" -625 175 50 H I C CNN
+$FPLIST
+ SW*
+ SP3T*
+$ENDFPLIST
+DRAW
+C -80 0 18 0 1 0 N
+C 80 -100 18 0 1 0 N
+C 80 0 18 0 1 0 N
+C 80 100 18 0 1 0 N
+P 2 0 1 0 -65 10 65 90 N
+X 1 1 200 100 100 L 50 50 1 1 P
+X 2 2 200 0 100 L 50 50 1 1 P
+X 3 3 -200 0 100 R 50 50 1 1 P
+X 4 4 200 -100 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# pzs_others_0V
+#
+DEF pzs_others_0V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "0V" 0 -150 50 H I C CNN
+F1 "pzs_others_0V" 0 -150 50 H I C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -15,11 +201,113 @@ X GND 1 0 0 50 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# Battery
+# pzs_others_auxcontalt
 #
-DEF Battery BT 0 0 N N 1 F N
+DEF pzs_others_auxcontalt AK 0 0 Y N 1 F N
+F0 "AK" 0 200 50 H V C CNN
+F1 "pzs_others_auxcontalt" -50 -150 50 H V C CNN
+F2 "" 25 0 50 H I C CNN
+F3 "" 25 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -100 0 -75 0 N
+P 2 0 1 0 -75 0 50 75 N
+P 3 0 1 0 50 -100 40 -100 40 -80 N
+P 3 0 1 0 50 100 40 100 40 80 N
+X A ~ -200 0 100 R 50 50 1 1 P
+X B ~ 150 -100 100 L 50 50 1 1 P
+X B ~ 150 100 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# pzs_others_electromagnetic_actor_1
+#
+DEF pzs_others_electromagnetic_actor_1 L 0 1 N N 1 F N
+F0 "L" 50 150 50 H V L CNN
+F1 "pzs_others_electromagnetic_actor_1" 50 -50 50 H V L CNN
+F2 "" -25 100 50 V I C CNN
+F3 "" -25 100 50 V I C CNN
+DRAW
+S -100 100 100 0 0 1 10 N
+P 2 0 1 10 -50 100 50 0 N
+X - 1 0 200 100 D 50 50 1 1 P
+X + 2 0 -100 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# pzs_others_overcurrent_breaker
+#
+DEF pzs_others_overcurrent_breaker F 0 0 Y N 1 F N
+F0 "F" 0 125 50 H V C CNN
+F1 "pzs_others_overcurrent_breaker" 0 -100 50 H V C CNN
+F2 "" 25 0 50 H I C CNN
+F3 "" 25 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -100 0 -75 0 N
+P 2 0 1 0 -75 0 50 75 N
+P 2 0 1 0 45 75 30 105 N
+P 2 0 1 0 75 -25 75 25 N
+P 2 0 1 0 100 -20 120 20 N
+P 2 0 1 0 100 0 75 0 N
+P 2 0 1 0 100 20 120 -20 N
+P 3 0 1 0 25 90 30 105 45 100 N
+P 6 0 1 0 -15 40 -20 50 -10 55 -15 65 -25 60 -30 70 N
+X A ~ -200 0 100 R 50 50 1 1 P
+X B ~ 200 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# pzs_others_screw_conn
+#
+DEF pzs_others_screw_conn P 0 30 N N 1 F N
+F0 "P" 80 0 40 H V L CNN
+F1 "pzs_others_screw_conn" 0 55 30 H I C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+C 0 0 31 0 1 0 N
+P 2 0 1 0 -30 -40 30 40 N
+P 2 0 1 0 -30 0 -50 0 N
+X 1 1 -150 0 100 R 60 60 1 1 P
+ENDDRAW
+ENDDEF
+#
+# pzs_others_transformer_1P_1S
+#
+DEF pzs_others_transformer_1P_1S Tr 0 40 Y N 1 F N
+F0 "Tr" 0 250 50 H V C CNN
+F1 "pzs_others_transformer_1P_1S" 0 -300 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+A -100 -150 50 899 1 0 1 0 N -100 -100 -50 -150
+A -100 -150 50 -1 -899 0 1 0 N -50 -150 -100 -199
+A -100 -50 50 899 1 0 1 0 N -100 0 -50 -50
+A -100 -50 50 -1 -899 0 1 0 N -50 -50 -100 -99
+A -100 50 50 899 1 0 1 0 N -100 100 -50 50
+A -100 50 50 -1 -899 0 1 0 N -50 50 -100 1
+A -100 150 50 899 1 0 1 0 N -100 200 -50 150
+A -100 150 50 -1 -899 0 1 0 N -50 150 -100 101
+A 50 -50 50 899 -1799 0 1 0 N 50 0 1 -50
+A 50 -50 50 1799 -899 0 1 0 N 1 -50 50 -99
+A 50 50 50 899 -1799 0 1 0 N 50 100 1 50
+A 50 50 50 1799 -899 0 1 0 N 1 50 50 1
+A 50 150 50 899 -1799 0 1 0 N 50 200 1 150
+A 50 150 50 1799 -899 0 1 0 N 1 150 50 101
+A 51 -150 50 910 -1799 0 1 0 N 51 -100 2 -150
+A 51 -150 50 -912 -1799 0 1 0 N 51 -199 2 -150
+P 2 0 1 0 -25 200 -25 -200 N
+X ~ ~ -400 -200 300 R 50 50 1 1 P
+X ~ ~ -400 200 300 R 50 50 1 1 P
+X ~ ~ 350 -200 300 L 50 50 1 1 P
+X ~ ~ 350 200 300 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# wiring-rescue_Battery
+#
+DEF wiring-rescue_Battery BT 0 0 N N 1 F N
 F0 "BT" 100 100 50 H V L CNN
-F1 "Battery" 100 0 50 H V L CNN
+F1 "wiring-rescue_Battery" 100 0 50 H V L CNN
 F2 "" 0 60 50 V V C CNN
 F3 "" 0 60 50 V V C CNN
 DRAW
@@ -40,135 +328,11 @@ X - 2 0 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# CONN_01X01
+# wiring-rescue_DB9
 #
-DEF CONN_01X01 P 0 40 Y N 1 F N
-F0 "P" 0 100 50 H V C CNN
-F1 "CONN_01X01" 100 0 50 V V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
-$FPLIST
- Pin_Header_Straight_1X01
- Pin_Header_Angled_1X01
- Socket_Strip_Straight_1X01
- Socket_Strip_Angled_1X01
-$ENDFPLIST
-DRAW
-S -50 5 10 -5 0 1 0 N
-S -50 50 50 -50 0 1 0 N
-X P1 1 -200 0 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# CONN_01X02
-#
-DEF CONN_01X02 P 0 40 Y N 1 F N
-F0 "P" 0 150 50 H V C CNN
-F1 "CONN_01X02" 100 0 50 V V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
-$FPLIST
- Pin_Header_Straight_1X02
- Pin_Header_Angled_1X02
- Socket_Strip_Straight_1X02
- Socket_Strip_Angled_1X02
-$ENDFPLIST
-DRAW
-S -50 -45 10 -55 0 1 0 N
-S -50 55 10 45 0 1 0 N
-S -50 100 50 -100 0 1 0 N
-X P1 1 -200 50 150 R 50 50 1 1 P
-X P2 2 -200 -50 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# CONN_01X03
-#
-DEF CONN_01X03 P 0 40 Y N 1 F N
-F0 "P" 0 200 50 H V C CNN
-F1 "CONN_01X03" 100 0 50 V V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
-$FPLIST
- Pin_Header_Straight_1X03
- Pin_Header_Angled_1X03
- Socket_Strip_Straight_1X03
- Socket_Strip_Angled_1X03
-$ENDFPLIST
-DRAW
-S -50 -95 10 -105 0 1 0 N
-S -50 5 10 -5 0 1 0 N
-S -50 105 10 95 0 1 0 N
-S -50 150 50 -150 0 1 0 N
-X P1 1 -200 100 150 R 50 50 1 1 P
-X P2 2 -200 0 150 R 50 50 1 1 P
-X P3 3 -200 -100 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# CONN_01X05
-#
-DEF CONN_01X05 P 0 40 Y N 1 F N
-F0 "P" 0 300 50 H V C CNN
-F1 "CONN_01X05" 100 0 50 V V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
-$FPLIST
- Pin_Header_Straight_1X05
- Pin_Header_Angled_1X05
- Socket_Strip_Straight_1X05
- Socket_Strip_Angled_1X05
-$ENDFPLIST
-DRAW
-S -50 -195 10 -205 0 1 0 N
-S -50 -95 10 -105 0 1 0 N
-S -50 5 10 -5 0 1 0 N
-S -50 105 10 95 0 1 0 N
-S -50 205 10 195 0 1 0 N
-S -50 250 50 -250 0 1 0 N
-X P1 1 -200 200 150 R 50 50 1 1 P
-X P2 2 -200 100 150 R 50 50 1 1 P
-X P3 3 -200 0 150 R 50 50 1 1 P
-X P4 4 -200 -100 150 R 50 50 1 1 P
-X P5 5 -200 -200 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# CONN_01X06
-#
-DEF CONN_01X06 P 0 40 Y N 1 F N
-F0 "P" 0 350 50 H V C CNN
-F1 "CONN_01X06" 100 0 50 V V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
-$FPLIST
- Pin_Header_Straight_1X06
- Pin_Header_Angled_1X06
- Socket_Strip_Straight_1X06
- Socket_Strip_Angled_1X06
-$ENDFPLIST
-DRAW
-S -50 -245 10 -255 0 1 0 N
-S -50 -145 10 -155 0 1 0 N
-S -50 -45 10 -55 0 1 0 N
-S -50 55 10 45 0 1 0 N
-S -50 155 10 145 0 1 0 N
-S -50 255 10 245 0 1 0 N
-S -50 300 50 -300 0 1 0 N
-X P1 1 -200 250 150 R 50 50 1 1 P
-X P2 2 -200 150 150 R 50 50 1 1 P
-X P3 3 -200 50 150 R 50 50 1 1 P
-X P4 4 -200 -50 150 R 50 50 1 1 P
-X P5 5 -200 -150 150 R 50 50 1 1 P
-X P6 6 -200 -250 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# DB9
-#
-DEF DB9 J 0 40 Y N 1 F N
+DEF wiring-rescue_DB9 J 0 40 Y N 1 F N
 F0 "J" 0 550 50 H V C CNN
-F1 "DB9" 0 -550 50 H V C CNN
+F1 "wiring-rescue_DB9" 0 -550 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -217,11 +381,11 @@ X P9 9 -450 300 300 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Fuse
+# wiring-rescue_Fuse
 #
-DEF Fuse F 0 0 N Y 1 F N
+DEF wiring-rescue_Fuse F 0 0 N Y 1 F N
 F0 "F" 80 0 50 V V C CNN
-F1 "Fuse" -75 0 50 V V C CNN
+F1 "wiring-rescue_Fuse" -75 0 50 V V C CNN
 F2 "" -70 0 50 V V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -235,14 +399,13 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Speaker_Crystal
+# wiring-rescue_Speaker_Ultrasound
 #
-DEF Speaker_Crystal LS 0 0 Y N 1 F N
+DEF wiring-rescue_Speaker_Ultrasound LS 0 0 Y N 1 F N
 F0 "LS" 25 225 50 H V R CNN
-F1 "Speaker_Crystal" 25 150 50 H V R CNN
+F1 "wiring-rescue_Speaker_Ultrasound" 25 150 50 H V R CNN
 F2 "" -35 -50 50 H V C CNN
 F3 "" -35 -50 50 H V C CNN
-ALIAS Speaker_Ultrasound
 DRAW
 S -100 50 45 -150 0 0 10 N
 S -80 -25 25 -75 0 0 10 N
@@ -253,108 +416,6 @@ P 2 0 0 0 -25 -10 -25 20 N
 P 4 0 0 10 45 50 145 150 145 -250 45 -150 N
 X 1 1 -200 0 100 R 50 50 1 1 I
 X 2 2 -200 -100 100 R 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# auxcontalt
-#
-DEF auxcontalt AK 0 0 Y N 1 F N
-F0 "AK" 0 200 50 H V C CNN
-F1 "auxcontalt" -50 -150 50 H V C CNN
-F2 "" 25 0 50 H I C CNN
-F3 "" 25 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -100 0 -75 0 N
-P 2 0 1 0 -75 0 50 75 N
-P 3 0 1 0 50 -100 40 -100 40 -80 N
-P 3 0 1 0 50 100 40 100 40 80 N
-X A ~ -200 0 100 R 50 50 1 1 P
-X B ~ 150 -100 100 L 50 50 1 1 P
-X B ~ 150 100 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# electromagnetic_actor_1
-#
-DEF electromagnetic_actor_1 L 0 1 N N 1 F N
-F0 "L" 50 150 50 H V L CNN
-F1 "electromagnetic_actor_1" 50 -50 50 H V L CNN
-F2 "" -25 100 50 V I C CNN
-F3 "" -25 100 50 V I C CNN
-DRAW
-S -100 100 100 0 0 1 10 N
-P 2 0 1 10 -50 100 50 0 N
-X - 1 0 200 100 D 50 50 1 1 P
-X + 2 0 -100 100 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# overcurrent_breaker
-#
-DEF overcurrent_breaker F 0 0 Y N 1 F N
-F0 "F" 0 125 50 H V C CNN
-F1 "overcurrent_breaker" 0 -100 50 H V C CNN
-F2 "" 25 0 50 H I C CNN
-F3 "" 25 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -100 0 -75 0 N
-P 2 0 1 0 -75 0 50 75 N
-P 2 0 1 0 45 75 30 105 N
-P 2 0 1 0 75 -25 75 25 N
-P 2 0 1 0 100 -20 120 20 N
-P 2 0 1 0 100 0 75 0 N
-P 2 0 1 0 100 20 120 -20 N
-P 3 0 1 0 25 90 30 105 45 100 N
-P 6 0 1 0 -15 40 -20 50 -10 55 -15 65 -25 60 -30 70 N
-X A ~ -200 0 100 R 50 50 1 1 P
-X B ~ 200 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# screw_conn
-#
-DEF ~screw_conn P 0 30 N N 1 F N
-F0 "P" 80 0 40 H V L CNN
-F1 "screw_conn" 0 55 30 H I C CNN
-F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
-DRAW
-C 0 0 31 0 1 0 N
-P 2 0 1 0 -30 -40 30 40 N
-P 2 0 1 0 -30 0 -50 0 N
-X 1 1 -150 0 100 R 60 60 1 1 P
-ENDDRAW
-ENDDEF
-#
-# transformer_1P_1S
-#
-DEF transformer_1P_1S Tr 0 40 Y N 1 F N
-F0 "Tr" 0 250 50 H V C CNN
-F1 "transformer_1P_1S" 0 -300 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-A -100 -150 50 899 1 0 1 0 N -100 -100 -50 -150
-A -100 -150 50 -1 -899 0 1 0 N -50 -150 -100 -199
-A -100 -50 50 899 1 0 1 0 N -100 0 -50 -50
-A -100 -50 50 -1 -899 0 1 0 N -50 -50 -100 -99
-A -100 50 50 899 1 0 1 0 N -100 100 -50 50
-A -100 50 50 -1 -899 0 1 0 N -50 50 -100 1
-A -100 150 50 899 1 0 1 0 N -100 200 -50 150
-A -100 150 50 -1 -899 0 1 0 N -50 150 -100 101
-A 50 -50 50 899 -1799 0 1 0 N 50 0 1 -50
-A 50 -50 50 1799 -899 0 1 0 N 1 -50 50 -99
-A 50 50 50 899 -1799 0 1 0 N 50 100 1 50
-A 50 50 50 1799 -899 0 1 0 N 1 50 50 1
-A 50 150 50 899 -1799 0 1 0 N 50 200 1 150
-A 50 150 50 1799 -899 0 1 0 N 1 150 50 101
-A 51 -150 50 910 -1799 0 1 0 N 51 -100 2 -150
-A 51 -150 50 -912 -1799 0 1 0 N 51 -199 2 -150
-P 2 0 1 0 -25 200 -25 -200 N
-X ~ ~ -400 -200 300 R 50 50 1 1 P
-X ~ ~ -400 200 300 R 50 50 1 1 P
-X ~ ~ 350 -200 300 L 50 50 1 1 P
-X ~ ~ 350 200 300 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
